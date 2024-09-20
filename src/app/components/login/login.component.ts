@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
-  title = 'SIA-Angular-App';
+  title = 'AngularBasicRouting1';
 }

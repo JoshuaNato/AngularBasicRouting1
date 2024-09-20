@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'SIA-Angular-App' title`, () => {
+  it(`should have the 'AngularBasicRouting1' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('SIA-Angular-App');
+    expect(app.title).toEqual('AngularBasicRouting1');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, SIA-Angular-App');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, AngularBasicRouting1');
   });
 });
